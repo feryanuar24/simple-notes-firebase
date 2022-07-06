@@ -1,0 +1,8 @@
+.my-card {
+  transition: all ease 0.35s;
+  &:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+}
